@@ -6,6 +6,9 @@ This is not meant to be too heavyweight library with a billion switches and knob
 
 Execute required commands below 
 ```
+python3 -m venv .venv
+source .venv/bin/activate
+
 pip install torch==2.5.0 torchvision==0.20.0 -f https://download.pytorch.org/whl/torch_stable.html
 python -m pip install -U matplotlib
 ```
